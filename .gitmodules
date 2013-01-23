@@ -1,0 +1,6 @@
+[submodule "libparserutils"]
+	path = libparserutils
+	url = http://git.netsurf-browser.org/libparserutils.git
+[submodule "hubbub"]
+	path = hubbub
+	url = http://git.netsurf-browser.org/libhubbub.git
