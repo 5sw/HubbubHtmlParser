@@ -552,13 +552,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HubbubHtmlParser/HubbubHtmlParser-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/hubbub/include",
-					"$(SRCROOT)/libparserutils/include",
+					"\"$(SRCROOT)/hubbub/include\"",
+					"\"$(SRCROOT)/libparserutils/include\"",
 				);
 				INFOPLIST_FILE = "HubbubHtmlParser/HubbubHtmlParser-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/libparserutils/src $(SRCROOT)/hubbub/src";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/libparserutils/src\" \"$(SRCROOT)/hubbub/src\"";
 				USE_HEADERMAP = NO;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -576,13 +576,13 @@
 				GCC_PREFIX_HEADER = "HubbubHtmlParser/HubbubHtmlParser-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/hubbub/include",
-					"$(SRCROOT)/libparserutils/include",
+					"\"$(SRCROOT)/hubbub/include\"",
+					"\"$(SRCROOT)/libparserutils/include\"",
 				);
 				INFOPLIST_FILE = "HubbubHtmlParser/HubbubHtmlParser-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/libparserutils/src $(SRCROOT)/hubbub/src";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/libparserutils/src\" \"$(SRCROOT)/hubbub/src\"";
 				USE_HEADERMAP = NO;
 				WRAPPER_EXTENSION = framework;
 			};
